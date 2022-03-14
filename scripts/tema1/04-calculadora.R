@@ -72,6 +72,7 @@ factorial(0)
 choose(5, 3)
 
 choose(3,5)
+choose(2,1)
 
 log(4^6, 4)
 
@@ -108,7 +109,7 @@ sqrt(2)^2-2
 round(sqrt(2), 4)^2
 
 2^50
-print(2^50, 15)
+print(2^50, 11)
 print(2^50, 2)
 print(pi, 22)
 #3.141592653589793115998
@@ -154,6 +155,7 @@ x = sqrt(x)
 
 ## Función f(x) = x^3 - (3^x)* sen(x)
 f = function(x) {
+  
   x^3 - (3^x) * sin(x)
 }
 
@@ -200,7 +202,7 @@ class(3+2i)
 
 (3+2i)*5
 
-(3+2i)*(-1+3i)
+(3+2i)*(-1+5i)
 
 (3+2i)/(-1+3i)
 
